@@ -9,3 +9,5 @@ The Wipy will register at the server (DemotiServer project). The user can then a
 The server will give the app all the registered Wipy's (or any other mini computer for that matter) which the user is then allowed to control.
 
 The idea here is that the user only has to install the code in his network, with the necessary devices. No configuration needed after that.
+
+Anyone that would like to contribute, is welcome.

@@ -1,0 +1,34 @@
+body {
+	background-color: #222;
+}
+
+div#banner {        
+    background-color: #222;
+	border-bottom: solid;
+	border-color: #e15036;
+	border-width: 2px;
+}
+
+img#bannerlogo{
+	margin: 20px 20px 20px 20px;
+}
+
+div#main-content { 
+    color: white;
+	clear: clear;
+	position: relative;
+	height: 100%;
+}
+
+h2{
+	margin-left: 50px;
+}
+
+#list2 { width:320px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#e15036;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:16px; color:#eee; border-left: 1px solid #e15036; }
+#list2 ol li p em { display:block; color: #e15036; font-style:bold; }
+
+a {color: white}
+a:visited {color: white}

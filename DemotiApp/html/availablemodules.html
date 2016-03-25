@@ -1,0 +1,18 @@
+<div body>	
+	<div id="main-content">
+		<h2>Available Modules</h2>
+		<div id="list2">
+			<div *ngIf="availableModules">				
+				<ol>
+					<li *ngFor="#module of availableModules">
+						<p><em>{{module.title	}}</em> {{module.description}}</p>
+					</li>
+				</ol>
+			</div>
+			<div *ngIf="errorMessage">
+				<!-- This doesn't work yet -->
+				Oops! Something went wrong with the call to the server...
+			</div>
+		</div>
+	</div>
+</div>

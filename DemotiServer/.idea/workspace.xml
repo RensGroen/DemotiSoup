@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c665cac-9a36-49be-bd12-74c3fa5a3246" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\availablemodules.component.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\availablemodules.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\availablemodules.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\html\availablemodules.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/beans/ModuleJsonDTO.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/beans/ModuleJsonDTO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/app.component.js.map" afterPath="$PROJECT_DIR$/../DemotiApp/app/app.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/app.component.js" afterPath="$PROJECT_DIR$/../DemotiApp/app/app.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/app.component.ts" afterPath="$PROJECT_DIR$/../DemotiApp/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/html/configuredmodules.html" afterPath="$PROJECT_DIR$/../DemotiApp/html/configuredmodules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/module.service.js.map" afterPath="$PROJECT_DIR$/../DemotiApp/app/module.service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/module.service.js" afterPath="$PROJECT_DIR$/../DemotiApp/app/module.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/module.service.ts" afterPath="$PROJECT_DIR$/../DemotiApp/app/module.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/model/module.ts" afterPath="$PROJECT_DIR$/../DemotiApp/app/model/module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemotiServer.iws" />
@@ -98,9 +88,9 @@
       <file leaf-file-name="ModulesService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="194" selection-start="765" selection-end="765" vertical-scroll-proportion="0.6217822">
+            <state line="45" column="6" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.8118812">
               <folding>
-                <element signature="e#1178#1193#0" expanded="true" />
+                <element signature="e#1182#1197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -742,7 +732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="24" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1178#1193#0" expanded="true" />
+            <element signature="e#1182#1197#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -818,9 +808,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="194" selection-start="765" selection-end="765" vertical-scroll-proportion="0.6217822">
+        <state line="45" column="6" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.8118812">
           <folding>
-            <element signature="e#1178#1193#0" expanded="true" />
+            <element signature="e#1182#1197#0" expanded="true" />
           </folding>
         </state>
       </provider>

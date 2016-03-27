@@ -34,16 +34,16 @@ public class ModulesService {
   public List<ModuleJsonDTO> createConfiguredModuleList()
   {
     ModuleJsonDTO ledModule=new ModuleJsonDTO();
-    ledModule.setType("RGB LED Module");
+    ledModule.setType("RGBLEDModule");
     ledModule.setPhysicalLocationName("Hallway led");
 
-    ModuleJsonDTO cameraModule=new ModuleJsonDTO();
-    cameraModule.setType("Camera module");
-    cameraModule.setPhysicalLocationName("Back yard camera");
+    //ModuleJsonDTO cameraModule=new ModuleJsonDTO();
+    //cameraModule.setType("Camera module");
+    //cameraModule.setPhysicalLocationName("Back yard camera");
 
     List<ModuleJsonDTO> modules = new ArrayList<ModuleJsonDTO>();
     modules.add(ledModule);
-    modules.add(cameraModule);
+    //modules.add(cameraModule);
     return modules;
   }
 }

@@ -8,16 +8,7 @@ package demotisoup.server.beans;
 public class ModuleJsonDTO {
 
   private String type;
-  private String description;
   private String physicalLocationName;
-
-  public String getDescription() {
-    return description;
-  }
-
-  public void setDescription(String description) {
-    this.description = description;
-  }
 
   public String getType() {
     return type;

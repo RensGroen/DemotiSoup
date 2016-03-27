@@ -7,13 +7,6 @@ import {Module} from './Model/module';
 export class ModuleService {
 	constructor(private _http: Http) {}
 	
-	getAvailableModules() {		
-		return this._http.get('http://localhost:8080/rest/modules/availableModules')
-			.map(res => <Module[]> res.json().modules)
-			.do(modules => console.log(modules))
-			.catch(this.handleError);
-  	}
-	
 	getConfiguredModules() {
 		return this._http.get('http://localhost:8080/rest/modules/configuredModules')
 			.map(res => <Module[]> res.json().modules)

@@ -19,29 +19,26 @@ import java.util.List;
 public class ModulesService {
 
   @GET
-  @Path("availableModules")
+  @Path("configuredModules")
   @Produces(MediaType.APPLICATION_JSON)
-  public Response getAvailableModules()
+  public Response getConfiguredModules()
   {
     LinkedHashMap<String,Object> map = new LinkedHashMap<>();
-    map.put("modules", createAvailableModuleList());
+    map.put("modules", createConfiguredModuleList());
     return Response.ok(map)
             .header("Access-Control-Allow-Origin","*")
             .build();
   }
 
   // Utiliy method to create module list.
-  public List<ModuleJsonDTO> createAvailableModuleList()
+  public List<ModuleJsonDTO> createConfiguredModuleList()
   {
     ModuleJsonDTO ledModule=new ModuleJsonDTO();
-    ledModule.setType("RGB LED ModuleJsonDTO");
-    ledModule.setDescription("This module allows you to control a red, " +
-            "green and blue (RGB) led light that is installed within your wifi.");
+    ledModule.setType("RGB LED Module");
     ledModule.setPhysicalLocationName("Hallway led");
 
     ModuleJsonDTO cameraModule=new ModuleJsonDTO();
     cameraModule.setType("Camera module");
-    cameraModule.setDescription("Gain control over your camera's installed in your wifi.");
     cameraModule.setPhysicalLocationName("Back yard camera");
 
     List<ModuleJsonDTO> modules = new ArrayList<ModuleJsonDTO>();

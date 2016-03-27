@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/http', 'angular2/router', './module.service', './configuredmodules.component', './availablemodules.component'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/http', 'angular2/router', './module.service', './configuredmodules.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/http', 'angular2/router', './module.
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, http_1, router_1, module_service_1, configuredmodules_component_1, availablemodules_component_1;
+    var core_1, http_1, router_1, module_service_1, configuredmodules_component_1;
     var AppComponent;
     return {
         setters:[
@@ -28,12 +28,8 @@ System.register(['angular2/core', 'angular2/http', 'angular2/router', './module.
             },
             function (configuredmodules_component_1_1) {
                 configuredmodules_component_1 = configuredmodules_component_1_1;
-            },
-            function (availablemodules_component_1_1) {
-                availablemodules_component_1 = availablemodules_component_1_1;
             }],
         execute: function() {
-            ;
             ;
             AppComponent = (function () {
                 function AppComponent() {
@@ -46,8 +42,7 @@ System.register(['angular2/core', 'angular2/http', 'angular2/router', './module.
                         providers: [module_service_1.ModuleService, http_1.HTTP_PROVIDERS, router_1.ROUTER_PROVIDERS]
                     }),
                     router_1.RouteConfig([
-                        { path: '/configuredModules', name: 'ConfiguredModules', component: configuredmodules_component_1.ConfiguredModulesComponent, useAsDefault: true },
-                        { path: '/availableModules', name: 'AvailableModules', component: availablemodules_component_1.AvailableModulesComponent }
+                        { path: '/configuredModules', name: 'ConfiguredModules', component: configuredmodules_component_1.ConfiguredModulesComponent, useAsDefault: true }
                     ]), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

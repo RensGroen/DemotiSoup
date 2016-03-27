@@ -28,12 +28,6 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable'], function(
                 function ModuleService(_http) {
                     this._http = _http;
                 }
-                ModuleService.prototype.getAvailableModules = function () {
-                    return this._http.get('http://localhost:8080/rest/modules/availableModules')
-                        .map(function (res) { return res.json().modules; })
-                        .do(function (modules) { return console.log(modules); })
-                        .catch(this.handleError);
-                };
                 ModuleService.prototype.getConfiguredModules = function () {
                     return this._http.get('http://localhost:8080/rest/modules/configuredModules')
                         .map(function (res) { return res.json().modules; })

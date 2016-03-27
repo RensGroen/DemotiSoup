@@ -5,7 +5,7 @@
 			<div *ngIf="configuredModules">				
 				<ol>
 					<li *ngFor="#module of configuredModules">
-						<p><em>{{module.type}}</em> {{module.description}}</p>
+						<p><em>{{module.type}}</em> {{module.physicalLocationName}}</p>
 					</li>
 				</ol>
 			</div>
@@ -15,11 +15,11 @@
 			</div>
 		</div>
 		<div *ngIf="!configuredModules && configuredModulesLoaded">
-			Looks like you have no modules configured..
+			Could not retreive the configured modules. Check your log for info or contact your IT guru.
 		</div>
 		<br />
-		<div id="link">
+		<!--<div id="link">
 			<a [routerLink]="['AvailableModules']">Click here to add a new module</a>
-		</div>
+		</div>-->
 	</div>
 </div>

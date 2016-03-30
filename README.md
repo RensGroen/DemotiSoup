@@ -8,6 +8,6 @@ As a starter, I am working on the RGB light module. Currently I am experimenting
 The Wipy will register at the server (DemotiServer project). The user immediately sees the module in his screen, given by the server, and is now able to control it.(DemotiApp project).
 
 
-I will build a small framework in which modules can define events of their own, and register to others. This way all of the devices can communicate with each other. This can be configured by the user in the app on his/her phone. An example: If Camera detecs moving Then change color of RGB led to red.
+I will build a small framework in which modules can define events of their own, and register to others. This way all of the devices can communicate with each other. This can be configured by the user in the app on his/her phone. An example: If Camera detects moving Then change color of RGB led to red.
 
 Anyone who would like to contribute, is welcome.

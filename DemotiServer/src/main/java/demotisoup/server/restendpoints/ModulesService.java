@@ -26,7 +26,6 @@ public class ModulesService {
     LinkedHashMap<String,Object> map = new LinkedHashMap<>();
     map.put("modules", createConfiguredModuleList());
     return Response.ok(map)
-            .header("Access-Control-Allow-Origin","*")
             .build();
   }
 

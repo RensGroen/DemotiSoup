@@ -14,7 +14,6 @@ import { RGBLEDModule } from './rgbledmodule';
 @RouteConfig([
 {path: '/configuredModules', name: 'ConfiguredModules', component: ConfiguredModulesComponent, useAsDefault: true}
 {path: '/rgbledModule', name: 'RGBLEDModule', component: RGBLEDModule}
-//{path: '/availableModules', name: 'AvailableModules', component: AvailableModulesComponent}
 ])
 export class AppComponent{
 }

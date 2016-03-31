@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c665cac-9a36-49be-bd12-74c3fa5a3246" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbDTO.java" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\model\mocked-modules.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\model\mocked-modules.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\model\mocked-modules.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\src\main\java\demotisoup\server\restendpoints\modulesendpoints\rgbmodule\domain\Color.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Projecten\Demotisoup\DemotiServer\src\main\java\demotisoup\server\restendpoints\modulesendpoints\rgbmodule\domain\ColorValue.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbColorValues.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/components.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/tests/element-highlighter.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/tests/element-highlighter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/history.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/index.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/systemjs/node_modules/es6-module-loader/demo/index.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/systemjs/node_modules/es6-module-loader/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/bs-recipes/recipes/middleware.css.injection/app/css/main.less" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/bs-recipes/recipes/middleware.css.injection/app/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/overlay-grid.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/overlay-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/plugins.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/plugins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/public/img/icons/preview.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/public/img/icons/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/html/rgbledmodule.html" afterPath="$PROJECT_DIR$/../DemotiApp/html/rgbledmodule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js.map" afterPath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js" afterPath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.ts" afterPath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/concurrently/node_modules/chalk/node_modules/.bin/supports-color.cmd" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/concurrently/node_modules/chalk/node_modules/.bin/supports-color.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/eazy-logger/node_modules/tfunk/node_modules/chalk/node_modules/.bin/supports-color.cmd" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/eazy-logger/node_modules/tfunk/node_modules/chalk/node_modules/.bin/supports-color.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/node-uuid/test/test.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/node-uuid/test/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/typings/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone/test.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/typings/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript-out.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript-out.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-min.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-min.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-strict.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-strict.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemotiServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +11,7 @@
     <file path="/index.html" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1458586552196" ignored="false" />
     <file path="/Dummy.txt" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459263550147" ignored="false" />
     <file path="/ConfiguredModule.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459071843854" ignored="false" />
-    <file path="/RGBModuleService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459418526221" ignored="false" />
+    <file path="/RGBModuleService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459423940825" ignored="false" />
     <file path="/ColorValues.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459264068789" ignored="false" />
     <file path="/pom.xml" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459318614217" ignored="false" />
     <file path="/ColorValue.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459321392817" ignored="false" />
@@ -169,7 +138,7 @@
       <file leaf-file-name="RGBModuleService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3842795">
+            <state line="32" column="53" selection-start="969" selection-end="969" vertical-scroll-proportion="0.4213974">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1061,7 +1030,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3842795">
+        <state line="32" column="53" selection-start="969" selection-end="969" vertical-scroll-proportion="0.4213974">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

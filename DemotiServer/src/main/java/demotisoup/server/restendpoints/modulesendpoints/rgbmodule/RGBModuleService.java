@@ -32,6 +32,7 @@ public class RGBModuleService {
   @Path("/changeColor")
   @Consumes(MediaType.APPLICATION_JSON)
   public Response changeColor(RgbDTO rgbDTO){
+    //TODO: Implement correctly
     System.out.println("POST reached with rgbDTO: " + rgbDTO.getColor());
     for (RgbColorValues colorValue : colorValues){
       if (colorValue.getColor().equals(rgbDTO.getColor())){

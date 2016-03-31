@@ -1,4 +1,9 @@
-DemotiServer\target\
-DemotiApp\node_modules\
-DemotiApp\typings\
-DemotiServer\.idea
+target/
+node_modules/
+typings/
+
+#################
+# IntelliJ IDEA
+#################
+.idea/
+*.iml

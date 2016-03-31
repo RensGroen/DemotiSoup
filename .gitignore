@@ -1,4 +1,4 @@
-DemotiServer\target
-DemotiApp\node_modules
-DemotiApp\typings
+DemotiServer\target\
+DemotiApp\node_modules\
+DemotiApp\typings\
 DemotiServer\.idea

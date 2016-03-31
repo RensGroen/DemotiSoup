@@ -2,19 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c665cac-9a36-49be-bd12-74c3fa5a3246" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/CORSFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/Color.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/ColorValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/app.component.js.map" afterPath="$PROJECT_DIR$/../DemotiApp/app/app.component.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/app.component.ts" afterPath="$PROJECT_DIR$/../DemotiApp/app/app.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbDTO.java" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\model\mocked-modules.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\model\mocked-modules.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiApp\app\model\mocked-modules.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\src\main\java\demotisoup\server\restendpoints\modulesendpoints\rgbmodule\domain\Color.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Projecten\Demotisoup\DemotiServer\src\main\java\demotisoup\server\restendpoints\modulesendpoints\rgbmodule\domain\ColorValue.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbColorValues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/components.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/components.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/tests/element-highlighter.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/tests/element-highlighter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/history.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/index.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/systemjs/node_modules/es6-module-loader/demo/index.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/systemjs/node_modules/es6-module-loader/demo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3/coverage/lcov-report/lib/json3.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/bs-recipes/recipes/middleware.css.injection/app/css/main.less" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/bs-recipes/recipes/middleware.css.injection/app/css/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/overlay-grid.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/lib/plugins/remote-debug/overlay-grid/overlay-grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/plugins.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/static/plugins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/public/img/icons/preview.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/public/img/icons/preview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/html/rgbledmodule.html" afterPath="$PROJECT_DIR$/../DemotiApp/html/rgbledmodule.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js.map" afterPath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js" afterPath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.ts" afterPath="$PROJECT_DIR$/../DemotiApp/app/rgbledmodule.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/style.css" afterPath="$PROJECT_DIR$/../DemotiApp/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/concurrently/node_modules/chalk/node_modules/.bin/supports-color.cmd" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/concurrently/node_modules/chalk/node_modules/.bin/supports-color.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/eazy-logger/node_modules/tfunk/node_modules/chalk/node_modules/.bin/supports-color.cmd" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/eazy-logger/node_modules/tfunk/node_modules/chalk/node_modules/.bin/supports-color.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/node-uuid/test/test.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/node-uuid/test/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/typings/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone/test.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/typings/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript-out.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript-out.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/reflect-metadata/spec/typescript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-min.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-min.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-strict.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo-strict.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo.html" afterPath="$PROJECT_DIR$/../DemotiApp/node_modules/lite-server/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/demo/weinre-demo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemotiServer.iws" />
@@ -24,11 +42,12 @@
     <file path="/index.html" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1458586552196" ignored="false" />
     <file path="/Dummy.txt" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459263550147" ignored="false" />
     <file path="/ConfiguredModule.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459071843854" ignored="false" />
-    <file path="/RGBModuleService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459323629070" ignored="false" />
+    <file path="/RGBModuleService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459418526221" ignored="false" />
     <file path="/ColorValues.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459264068789" ignored="false" />
     <file path="/pom.xml" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459318614217" ignored="false" />
     <file path="/ColorValue.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459321392817" ignored="false" />
-    <file path="/Color.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459323517734" ignored="false" />
+    <file path="/Color.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459418283407" ignored="false" />
+    <file path="/RgbColorValues.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459418470592" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +108,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3112128">
+            <state line="15" column="36" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +120,7 @@
       <file leaf-file-name="CORSFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/CORSFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+            <state line="19" column="65" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,10 +166,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RGBModuleService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RGBModuleService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="2" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+            <state line="12" column="4" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3842795">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,19 +177,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorValue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/ColorValue.java">
+      <file leaf-file-name="RgbColorValues.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbColorValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="40" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+            <state line="20" column="28" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Color.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/Color.java">
+      <file leaf-file-name="RgbDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="17" column="1" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -194,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/../DemotiApp/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/beans/Module.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/beans/ConfiguredModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/beans/AbstractModule.java" />
@@ -206,9 +223,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/ColorValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/Color.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbDTOValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbColorValues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java" />
       </list>
     </option>
   </component>
@@ -247,9 +267,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="15" />
-    <option name="width" value="1367" />
+    <option name="x" value="-7" />
+    <option name="y" value="1" />
+    <option name="width" value="1645" />
     <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -841,12 +861,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="15" width="1367" height="1008" extended-state="0" />
+    <frame x="-7" y="1" width="1645" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -862,13 +883,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6655702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29501915" sideWeight="0.5707547" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2432091" sideWeight="0.5707547" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4292453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1000,15 +1020,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/CORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/ModulesService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="27" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
@@ -1018,33 +1029,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/Color.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="15" column="36" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/ColorValue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/CORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+        <state line="19" column="65" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3112128">
+        <state line="17" column="1" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/domain/RgbColorValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/restendpoints/modulesendpoints/rgbmodule/RGBModuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3842795">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

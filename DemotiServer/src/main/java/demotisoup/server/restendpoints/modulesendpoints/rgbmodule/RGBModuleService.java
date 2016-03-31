@@ -1,7 +1,7 @@
 package demotisoup.server.restendpoints.modulesendpoints.rgbmodule;
 
-import demotisoup.server.restendpoints.modulesendpoints.rgbmodule.domain.Color;
-import demotisoup.server.restendpoints.modulesendpoints.rgbmodule.domain.ColorValue;
+import demotisoup.server.restendpoints.modulesendpoints.rgbmodule.domain.RgbColorValues;
+import demotisoup.server.restendpoints.modulesendpoints.rgbmodule.domain.RgbDTO;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -19,24 +19,25 @@ import java.util.Set;
 @Path("/rgbmodule")
 public class RGBModuleService {
 
-  Set<ColorValue> colorValues = new HashSet<>();
+  Set<RgbColorValues> colorValues = new HashSet<>();
 
   public RGBModuleService(){
-    ColorValue red = new ColorValue("red", 100,0,0);
-    ColorValue green = new ColorValue("green", 0,100,0);
-    ColorValue blue = new ColorValue("blue", 0,0,100);
+    RgbColorValues red = new RgbColorValues("red", 100,0,0);
+    RgbColorValues green = new RgbColorValues("green", 0,100,0);
+    RgbColorValues blue = new RgbColorValues("blue", 0,0,100);
     colorValues.add(red); colorValues.add(green); colorValues.add(blue);
   }
 
   @POST
   @Path("/changeColor")
   @Consumes(MediaType.APPLICATION_JSON)
-  public Response changeColor(Color color){
-    System.out.println("POST reached with color: " + color.getColor());
-    for (ColorValue colorValue : colorValues){
-      if (colorValue.getColor().equals(color.getColor())){
-        System.out.println("Color '" + color.getColor() + "' translates to: " + colorValue.getRedValue() + "," +
-                "" + colorValue.getGreenValue() + "," + colorValue.getBlueValue());
+  public Response changeColor(RgbDTO rgbDTO){
+    System.out.println("POST reached with rgbDTO: " + rgbDTO.getColor());
+    for (RgbColorValues colorValue : colorValues){
+      if (colorValue.getColor().equals(rgbDTO.getColor())){
+        System.out.println("RgbDTO '" + rgbDTO.getColor() + "' translates to: " + colorValue.getRedValue() + "," +
+                "" + colorValue.getGreenValue() + "," + colorValue.getBlueValue() + "; Will be send to: " + rgbDTO
+                .getPhysicalLocationName());
       }
     }
     return Response.status(201).build();

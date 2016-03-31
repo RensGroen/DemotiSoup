@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', 'angular2/http'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', 'angular2/http', './Model/rgbmoduledto'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/router', 'angular2/http'], function(
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, http_1;
+    var core_1, router_1, http_1, rgbmoduledto_1;
     var RGBLEDModule;
     return {
         setters:[
@@ -22,31 +22,23 @@ System.register(['angular2/core', 'angular2/router', 'angular2/http'], function(
             },
             function (http_1_1) {
                 http_1 = http_1_1;
+            },
+            function (rgbmoduledto_1_1) {
+                rgbmoduledto_1 = rgbmoduledto_1_1;
             }],
         execute: function() {
             RGBLEDModule = (function () {
                 function RGBLEDModule(params, _http) {
                     this._http = _http;
-                    this.pyhiscalLocation = params.get('id');
+                    this.rgbModuleDTO = new rgbmoduledto_1.RgbModuleDTO();
+                    this.rgbModuleDTO.physicalLocationName = params.get('id');
                 }
-                RGBLEDModule.prototype.ngOnInit = function () {
-                };
                 RGBLEDModule.prototype.setColor = function (event) {
-                    //console.log(event.path[0].name);  
-                    //console.log(JSON.stringify(event.path[0].name));
-                    var body = JSON.stringify(event.path[0].name);
-                    var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
-                    var options = new http_1.RequestOptions({ headers: headers });
-                    console.log(body);
-                    this._http.post('http://localhost:8080/rest/rgbmodule/changeColor', body, options);
-                    //.map(res: Response) => res.json().data);
-                    //.subscribe((res:Response) => console.log(res));		
-                };
-                RGBLEDModule.prototype.setAnotherColor = function (event) {
                     var _this = this;
+                    this.rgbModuleDTO.color = event.path[0].name;
                     var headers = new http_1.Headers();
                     headers.append('Content-Type', 'application/json');
-                    this._http.post('http://localhost:8080/rest/rgbmodule/changeColor', JSON.stringify({ color: event.path[0].name }), { headers: headers })
+                    this._http.post('http://localhost:8080/rest/rgbmodule/changeColor', JSON.stringify(this.rgbModuleDTO), { headers: headers })
                         .map(function (res) { return res; })
                         .subscribe(function (res) { return _this.postResponse = res; });
                 };

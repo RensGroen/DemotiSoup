@@ -23,6 +23,8 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="DemotiServer" />
+        <module name="DownloadDriver" />
+        <module name="DownloadModule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

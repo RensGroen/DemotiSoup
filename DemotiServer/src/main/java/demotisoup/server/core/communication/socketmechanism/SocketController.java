@@ -4,6 +4,7 @@ import demotisoup.server.core.communication.socketmechanism.clientsocket.ReadFro
 import demotisoup.server.core.communication.socketmechanism.clientsocket.ClientSocketInterface;
 import demotisoup.server.core.communication.socketmechanism.clientsocket.WriteToClientSocket;
 import demotisoup.server.core.communication.socketmechanism.exceptions.CannotDecypherNewClientException;
+import org.apache.log4j.Logger;
 
 import java.io.DataInputStream;
 import java.io.IOException;
@@ -20,6 +21,7 @@ public class SocketController extends Thread{
   private java.net.ServerSocket serverSocket;
   private List<ClientSocketInterface> clients = new ArrayList<>();
   private int port;
+  final static Logger logger = Logger.getLogger(SocketController.class);
 
   public SocketController(int port) throws IOException
   {
@@ -36,9 +38,9 @@ public class SocketController extends Thread{
         if (serverSocket == null){
           serverSocket = new java.net.ServerSocket(port);
         }
-        System.out.println("Waiting for client on port " + serverSocket.getLocalPort() + "...");
+        logger.debug("Waiting for client on port " + serverSocket.getLocalPort() + "...");
         Socket client = serverSocket.accept();
-        System.out.println("Just connected to " + client.getRemoteSocketAddress());
+        logger.debug("Just connected to client: " + client.getRemoteSocketAddress());
 
         //The client needs to state its name and type of communication it wants.
         ClientSocketInterface clientSocket = null;
@@ -47,23 +49,24 @@ public class SocketController extends Thread{
           if (clientSocket instanceof ReadFromClientSocket){
             ((ReadFromClientSocket)clientSocket).start();
           }
-          System.out.println("Toevoegen client: " + clientSocket.getClientName() + ";" + clientSocket.getClientType());
+          logger.debug("Added a new client: " + clientSocket.getClientName() + ";" + clientSocket.getClientType());
           deleteOldRegisteredClientIfNecessary(clientSocket);
           clients.add(clientSocket);
         } catch (CannotDecypherNewClientException e) {
-          //TODO: logging
-          e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+          logger.error("A client registered but its first request was not according to interface. The right Interface" +
+                  " should be name, type and read/write mode, all three seperated by dot comma. Example: 'hallway " +
+                  "led;RGBled Module;r'. Use r if the client only reads/recieves information, " +
+                  "use w if it only writes/sends information, or use rw if it is doing both reading and writing.",e);
         }
       }catch(SocketTimeoutException s)
       {
-        System.out.println("Socket timed out!");
+        logger.error("Socket timed out!",s);
         //TODO: check which client we are missing
         closeAndDestroySocket();
       }catch(IOException e)
       {
         closeAndDestroySocket();
-        //TODO: Logging
-        System.out.println("IOException: " + e.getMessage());
+        logger.error("IOException of one of the sockets", e);
       }
     }
   }
@@ -72,6 +75,7 @@ public class SocketController extends Thread{
     for (ClientSocketInterface clientSocketInterface : clients){
       if (clientSocketInterface.getClientName().equals(clientSocket.getClientName())){
          clients.remove(clientSocketInterface);
+        logger.debug("Removed one of the client sockets: " + clientSocketInterface.getClientName());
       }
     }
   }
@@ -81,7 +85,7 @@ public class SocketController extends Thread{
       serverSocket.close();
       serverSocket = null;
     } catch (IOException e) {
-      e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+      logger.error("IOException during closing of a socket.",e);
     }
   }
 

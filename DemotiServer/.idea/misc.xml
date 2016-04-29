@@ -11,6 +11,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Modules/DownloadModule/pom.xml" />
+        <option value="$PROJECT_DIR$/../Modules/Drivers/DownloadDriver/pom.xml" />
+        <option value="$PROJECT_DIR$/../Modules/DownloadDriver/pom.xml" />
       </list>
     </option>
   </component>

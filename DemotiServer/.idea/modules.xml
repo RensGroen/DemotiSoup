@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../DemotiApp/DemotiApp.iml" filepath="$PROJECT_DIR$/../DemotiApp/DemotiApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/DemotiServer.iml" filepath="$PROJECT_DIR$/DemotiServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Modules/DownloadDriver/DownloadDriver.iml" filepath="$PROJECT_DIR$/../Modules/DownloadDriver/DownloadDriver.iml" />
     </modules>
   </component>
 </project>

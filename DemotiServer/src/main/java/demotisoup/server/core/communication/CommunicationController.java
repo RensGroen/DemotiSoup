@@ -3,6 +3,8 @@ package demotisoup.server.core.communication;
 import demotisoup.server.core.communication.socketmechanism.DriverEvents;
 import demotisoup.server.core.communication.socketmechanism.SocketController;
 import demotisoup.server.core.communication.socketmechanism.clientsocket.ClientSocketInterface;
+import org.apache.log4j.Logger;
+
 
 import java.io.IOException;
 import java.util.List;
@@ -15,6 +17,7 @@ public class CommunicationController {
   private SocketController socketController;
   private static CommunicationController instance;
   private DriverController driverController;
+  final static Logger logger = Logger.getLogger(CommunicationController.class);
 
   private CommunicationController(){}
 
@@ -37,7 +40,7 @@ public class CommunicationController {
       socketController = new SocketController(port);
       socketController.start();
     } catch (IOException e) {
-      e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+      logger.error("Fatal error, initial socket mechanism went down.",e);
     }
   }
 
@@ -70,15 +73,16 @@ public class CommunicationController {
    * @param data the data that the device/client sent
    */
   public void clientReadEvent(String name, String data) {
-    System.out.println(name + " received: " + data);
+    logger.debug(name + " received: " + data);
     driverController.onPublishEvent(name, data);
   }
 
   /**
    * Register your Driver here through the IDriver interface.
    */
-  public void registerDriver(IDriver IDriver){
-     driverController.registerDriver(IDriver);
+  public void registerDriver(IDriver iDriver){
+    logger.debug("Driver is registering: " + iDriver.getName() + " of type: " + iDriver.getType());
+    driverController.registerDriver(iDriver);
   }
 
   /**
@@ -116,6 +120,7 @@ public class CommunicationController {
    * @param fromClientEvent The highlighted Enum which is one of the earlier registered enums as registered in IDriver
    */
   public void stateFromClientEvent(String name, Enum<?> fromClientEvent){
-     driverController.handleFromClientEvent(name, fromClientEvent);
+    logger.debug("Driver '" + name + "' notifies an event to framework: " + fromClientEvent.name());
+    driverController.handleFromClientEvent(name, fromClientEvent);
   }
 }

@@ -1,4 +1,6 @@
 package demotisoup.server.core.communication.socketmechanism.clientsocket;
+import org.apache.log4j.Logger;
+
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
@@ -10,6 +12,7 @@ public class WriteToClientSocket implements ClientSocketInterface{
   private Socket client;
   private String name;
   private String type;
+  final static Logger logger = Logger.getLogger(WriteToClientSocket.class);
 
   public WriteToClientSocket(String name, Socket client, String type) {
     this.name = name;
@@ -22,8 +25,9 @@ public class WriteToClientSocket implements ClientSocketInterface{
     try {
       out = new DataOutputStream(client.getOutputStream());
       out.writeUTF(data);
+      logger.debug("Wrote data: '" + data + "' to " + this.name);
     } catch (IOException e) {
-      //TODO: logging
+      logger.error("Exception during writing to socket client.", e);
       e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
     }
   }

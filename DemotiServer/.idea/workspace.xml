@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c665cac-9a36-49be-bd12-74c3fa5a3246" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/exceptions/CannotDecypherNewClientException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/ClientSocketInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowReaderClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWithOneModuleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWithTwoModulesCommunicating.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWriterClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerWrongClientRegistrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/DriverEvents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/IDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/IfThenEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/ReadFromClientSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketDirection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Modules/DownloadDriver/pom.xml" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__com_sun_jersey_jersey_core_1_18_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__com_sun_jersey_jersey_json_1_18_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__com_sun_jersey_jersey_server_1_18_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__com_sun_jersey_jersey_servlet_1_18_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__javax_xml_stream_stax_api_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__org_codehaus_jackson_jackson_jaxrs_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__org_codehaus_jackson_jackson_xc_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projecten\Demotisoup\DemotiServer\.idea\libraries\Maven__org_codehaus_jettison_jettison_1_1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemotiApp/DemotiApp.iml" afterPath="$PROJECT_DIR$/../DemotiApp/DemotiApp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemotiServer.iml" afterPath="$PROJECT_DIR$/DemotiServer.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/DemotiServer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/DemotiServer_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java" afterPath="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,27 +36,27 @@
     <file path="/ModulesService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459074707885" ignored="false" />
     <file path="/Module.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459071456810" ignored="false" />
     <file path="/index.html" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1458586552196" ignored="false" />
-    <file path="/Dummy.txt" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461321831856" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461940822483" ignored="false" />
     <file path="/ConfiguredModule.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459071843854" ignored="false" />
     <file path="/RGBModuleService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459423940825" ignored="false" />
     <file path="/ColorValues.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459264068789" ignored="false" />
-    <file path="/pom.xml" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459933939846" ignored="false" />
+    <file path="/pom.xml" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461941023802" ignored="false" />
     <file path="/ColorValue.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459321392817" ignored="false" />
     <file path="/Color.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459418283407" ignored="false" />
     <file path="/RgbColorValues.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459418470592" ignored="false" />
     <file path="/CannotDecypherNewClientException.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459785471363" ignored="false" />
     <file path="/Main.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459785616189" ignored="false" />
-    <file path="/CommunicationController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460127967608" ignored="false" />
+    <file path="/CommunicationController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461862707916" ignored="false" />
     <file path="/CommunicationControllerTest.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459931561622" ignored="false" />
     <file path="/a.dummy" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459861328591" ignored="false" />
-    <file path="/SocketController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459945352923" ignored="false" />
+    <file path="/SocketController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461864746020" ignored="false" />
     <file path="/CommunicationControllerSupport.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459948698666" ignored="false" />
     <file path="/CommunicationControllerBadFlowWrongClientRegistration.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459931952991" ignored="false" />
     <file path="/CommunicationControllerHappyFlowWriterClient.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459935613525" ignored="false" />
     <file path="/ClientReaderSocket.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1459935726687" ignored="false" />
     <file path="/ReadFromClientSocket.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460020071671" ignored="false" />
     <file path="/Driver.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460107274774" ignored="false" />
-    <file path="/DriverController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460631135120" ignored="false" />
+    <file path="/DriverController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461863894492" ignored="false" />
     <file path="/fragment.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460108240573" ignored="false" />
     <file path="/IfThenEvent.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460108372872" ignored="false" />
     <file path="/IDriver.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460127679616" ignored="false" />
@@ -65,6 +70,9 @@
     <file path="$PROJECT_DIR$/../../Holmes/GIT/holmes/Product/holmes/Implementation/holmes-service/src/main/java/org/vrom/vi/dpvi/holmes/service/inspecteren/impl/ControleToegangServiceImpl.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460719598686" ignored="false" />
     <file path="$PROJECT_DIR$/../../Holmes/GIT/holmes/Product/holmes/Implementation/holmes-service/src/main/java/org/vrom/vi/dpvi/holmes/service/AanleidingService.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460719598686" ignored="false" />
     <file path="$PROJECT_DIR$/../../Holmes/GIT/holmes/Product/holmes/Implementation/holmes-rest/src/main/java/nl/ilent/holmes/rest/resource/interventie/bestuursrecht/behandelaars/BRInterventieBehandelaarController.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1460719598686" ignored="false" />
+    <file path="/log4j.properties" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461862375970" ignored="false" />
+    <file path="/WriteToClientSocket.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461864895528" ignored="false" />
+    <file path="/RGBDriver.java" changelist="4c665cac-9a36-49be-bd12-74c3fa5a3246" time="1461940966665" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +125,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendThread" default_condition_enabled="false">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" line="72" class="demotisoup.server.core.communication.CommunicationController" package="demotisoup.server.core.communication">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" line="75" class="demotisoup.server.core.communication.CommunicationController" package="demotisoup.server.core.communication">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -142,22 +150,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CommunicationController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java">
+      <file leaf-file-name="SocketController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="28" selection-start="3788" selection-end="3788" vertical-scroll-proportion="0.0">
+            <state line="23" column="72" selection-start="878" selection-end="948" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommunicationControllerHappyFlowWithTwoModulesCommunicating.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWithTwoModulesCommunicating.java">
+      <file leaf-file-name="SocketDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketDirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="73" selection-start="5774" selection-end="5774" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="12" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WriteToClientSocket.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="9" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.69917744">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Modules/DownloadDriver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="43" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,16 +189,43 @@
       <file leaf-file-name="DriverController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="23" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+            <state line="17" column="2" selection-start="516" selection-end="586" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModuleJsonDTO.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/beans/ModuleJsonDTO.java">
+      <file leaf-file-name="CommunicationControllerHappyFlowWriterClientTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWriterClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.23517786">
+            <state line="41" column="77" selection-start="1128" selection-end="1313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverEvents.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/DriverEvents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommunicationControllerSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="39" selection-start="305" selection-end="411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,22 +249,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/ClientReaderSocket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWriterClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerSupport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/Direction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/ReadFromClientSocket.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/IfThenEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/IDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" />
         <option value="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowReaderClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWriterClientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java" />
         <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/DriverEvents.java" />
         <option value="$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWithTwoModulesCommunicating.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java" />
+        <option value="$PROJECT_DIR$/../pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java" />
+        <option value="$PROJECT_DIR$/../Modules/DownloadDriver/pom.xml" />
+        <option value="$PROJECT_DIR$/../Modules/DownloadDriver/src/main/java/demotisoup/rgbdriver/driver/RGBDriver.java" />
       </list>
     </option>
   </component>
@@ -238,10 +289,6 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="DemotiServer" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -251,10 +298,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="DemotiServer" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -269,12 +312,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -344,6 +381,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DownloadDriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemotiServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demotisoup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DownloadDriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemotiServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demotisoup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DownloadDriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemotiServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demotisoup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DemotiServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -363,18 +466,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communication" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,118 +546,8 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demotisoup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restendpoints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demotisoup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restendpoints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rgbmodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demotisoup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restendpoints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rgbmodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -669,48 +650,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="socketmechanism" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demotisoup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socketmechanism" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -756,44 +695,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demotisoup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemotiServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -810,15 +715,17 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.42857143" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.42857143" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="demotisoup.server.core.communication" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projecten\Demotisoup\DemotiServer\src\main\resources" />
+      <recent name="C:\Projecten\Demotisoup\DemotiServer\src\main\webapp\WEB-INF\classes" />
       <recent name="C:\Projecten\Demotisoup\DemotiServer\src\main\webapp" />
     </key>
   </component>
@@ -1027,19 +934,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1066,6 +960,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1290,7 +1197,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3247768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.67129135" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1298,20 +1204,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20384204" sideWeight="0.59375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20437567" sideWeight="0.6004464" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2769477" sideWeight="0.59375" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40625" sideWeight="0.678762" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2769477" sideWeight="0.6004464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.678762" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32405347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1380,54 +1287,35 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/beans/ModuleJsonDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="382" selection-end="382" vertical-scroll-proportion="-6.8" />
+        <state line="13" column="88" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWithOneModuleTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+        <state line="15" column="4" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.109913796">
-          <folding />
+        <state line="9" column="71" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="21" selection-start="4060" selection-end="4060" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/IDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowReaderClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="27" selection-start="2115" selection-end="2612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWriterClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="77" selection-start="1128" selection-end="1313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+        <state line="42" column="14" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1439,6 +1327,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="2" selection-start="516" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWriterClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="77" selection-start="1128" selection-end="1313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/DriverEvents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
@@ -1446,46 +1362,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/CommunicationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/SocketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="28" selection-start="3788" selection-end="3788" vertical-scroll-proportion="0.0">
+        <state line="23" column="72" selection-start="878" selection-end="948" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/IDriver.java">
+    <entry file="file://$PROJECT_DIR$/../pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="14" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
+        <state line="8" column="39" selection-start="305" selection-end="411" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/ReadFromClientSocket.java">
+    <entry file="file://$PROJECT_DIR$/../Modules/DownloadDriver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="84" selection-start="419" selection-end="419" vertical-scroll-proportion="0.36956522">
+        <state line="14" column="43" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demotisoup/server/core/communication/CommunicationControllerHappyFlowWithTwoModulesCommunicating.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/socketmechanism/clientsocket/WriteToClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="73" selection-start="5774" selection-end="5774" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/core/communication/DriverController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="23" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demotisoup/server/beans/ModuleJsonDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.23517786">
+        <state line="39" column="9" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.69917744">
           <folding />
         </state>
       </provider>

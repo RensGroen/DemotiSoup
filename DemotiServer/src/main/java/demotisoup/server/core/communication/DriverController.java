@@ -1,6 +1,7 @@
 package demotisoup.server.core.communication;
 
 import demotisoup.server.core.communication.socketmechanism.DriverEvents;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,17 +15,18 @@ class DriverController {
   private List<DriverEvents> fromClientEvents = new ArrayList<>();
   private List<DriverEvents> toClientEvents = new ArrayList<>();
   private List<IfThenEvent> ifThenEvents = new ArrayList<>();
+  final static Logger logger = Logger.getLogger(DriverController.class);
 
   /**
    * Declare package private constructor
    */
   DriverController() {}
 
-  //<E extends Enum<?>>
-  void registerDriver(IDriver IDriver) {
-    registerFromClientEvents(IDriver);
-    registerToClientEvents(IDriver);
-    iDrivers.add(IDriver);
+  void registerDriver(IDriver iDriver) {
+    registerFromClientEvents(iDriver);
+    registerToClientEvents(iDriver);
+    iDrivers.add(iDriver);
+    logger.debug("Driver of type " + iDriver.getType() + " succesfully registered undere name: " + iDriver.getName());
   }
 
   private void registerFromClientEvents(IDriver iDriver) {
@@ -84,6 +86,7 @@ class DriverController {
     for (IfThenEvent ifThenEvent : ifThenEvents){
       if (ifThenEvent.getIfValue().equals(fromClientEvent.name()) && ifThenEvent.getFromModuleName().equals(name)){
         IDriver iDriver = getDriver(ifThenEvent.getToModuleName());
+        logger.debug("Going to notify driver " + name + " for event " + fromClientEvent.name());
         iDriver.executeToClientEvent(ifThenEvent.getThenValue());
       }
     }
@@ -91,5 +94,7 @@ class DriverController {
 
   void registerIfThenEvent(IfThenEvent ifThenEvent) {
     ifThenEvents.add(ifThenEvent);
+    logger.debug("IfThen Event registered: if " + ifThenEvent.getFromModuleName() + " " + ifThenEvent.getIfValue() +
+            " then " + ifThenEvent.getToModuleName() + " " + ifThenEvent.getThenValue());
   }
 }

@@ -9,6 +9,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Author: Rens Groenveld
@@ -89,12 +91,14 @@ public class CommunicationControllerHappyFlowWithTwoModulesCommunicating {
       //The framework will call this event to let de driver know it has to do something
       //The driver should have the intelligence to know what kind of event this is,
       // and react on it. In this case turn the rgb led red
-      communicationController.write(this.getName(), "glowRed");
+      communicationController.write("hallway led", "glowRed");
     }
 
     @Override
-    public String getName() {
-      return "hallway led";
+    public List<String> getNames() {
+      List<String> myList = new ArrayList<>();
+      myList.add("hallway led");
+      return myList;
     }
 
     @Override
@@ -115,7 +119,7 @@ public class CommunicationControllerHappyFlowWithTwoModulesCommunicating {
       //Maybe the user has defined it as en IfThen event
       //So convert the incoming data to something meaningful for your driver and return an enum.
       //In this test, we know it is a movement detected
-      communicationController.stateFromClientEvent(this.getName(), cameraPublishEvents.MOVEMENT_DETECTED);
+      communicationController.stateFromClientEvent("camera backgarden", cameraPublishEvents.MOVEMENT_DETECTED);
     }
 
     @Override
@@ -134,8 +138,10 @@ public class CommunicationControllerHappyFlowWithTwoModulesCommunicating {
     }
 
     @Override
-    public String getName() {
-      return "camera backgarden";
+    public List<String> getNames() {
+      List<String> myList = new ArrayList<>();
+      myList.add("camera backgarden");
+      return myList;
     }
 
     @Override

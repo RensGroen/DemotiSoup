@@ -8,6 +8,8 @@ import org.junit.Test;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Author: Rens Groenveld
@@ -70,8 +72,10 @@ public class CommunicationControllerHappyFlowReaderClientTest {
     }
 
     @Override
-    public String getName() {
-      return "Camera Hallway";
+    public List<String> getNames() {
+      List<String> myList = new ArrayList<>();
+      myList.add("Camera Hallway");
+      return myList;
     }
 
     @Override

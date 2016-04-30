@@ -26,7 +26,7 @@ class DriverController {
     registerFromClientEvents(iDriver);
     registerToClientEvents(iDriver);
     iDrivers.add(iDriver);
-    logger.debug("Driver of type " + iDriver.getType() + " succesfully registered undere name: " + iDriver.getName());
+    logger.debug("Driver of type " + iDriver.getType() + " succesfully registered undere name: " + iDriver.getNames());
   }
 
   private void registerFromClientEvents(IDriver iDriver) {
@@ -67,8 +67,10 @@ class DriverController {
 
   private IDriver getDriver(String name) {
     for (IDriver driver : iDrivers){
-      if (driver.getName().equals(name)){
-        return driver;
+      for (String driverName : driver.getNames()){
+        if (driverName.equals(name)){
+          return driver;
+        }
       }
     }
     return null;

@@ -1,5 +1,7 @@
 package demotisoup.server.core.communication;
 
+import java.util.List;
+
 /**
  * Author: Rens Groenveld
  *
@@ -43,9 +45,10 @@ public interface IDriver {
   public void executeToClientEvent(String event);
 
   /**
-   * @return The name of your module, i.e. Camera back garden
+   * @return The name of your module, i.e. Camera back garden.
+   * You can have multiple names. For each name the framework will create a separate thread.
    */
-  public String getName();
+  public List<String> getNames();
 
   /**
    * @return the Type of your module, i.e. CameraModule. The framework needs this so it can determine

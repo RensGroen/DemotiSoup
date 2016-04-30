@@ -81,7 +81,7 @@ public class CommunicationController {
    * Register your Driver here through the IDriver interface.
    */
   public void registerDriver(IDriver iDriver){
-    logger.debug("Driver is registering: " + iDriver.getName() + " of type: " + iDriver.getType());
+    logger.debug("Driver is registering: " + iDriver.getNames() + " of type: " + iDriver.getType());
     driverController.registerDriver(iDriver);
   }
 
